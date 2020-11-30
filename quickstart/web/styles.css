@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  height: 100vh;
+  width: 100vw;
+}
+
+#output {
+  padding: 20px;
+  text-align: center;
+}
+
+#fragenfeld{
+  margin-top: 20px;
+  width: 450px;
+  max-width: 80%;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+}
+
+#progress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#bar {
+  width: 00%;
+  height: 30px;
+  background-color: #004996;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+.button { /* großer Mist */
+  width: 300px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+#wbutton, #zbutton, #backbutton{
+  height: 30px;
+  margin: 10px;
+}
+
+#frage {
+  font-size: h2;
+}
+
+#feedback{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+#logo{
+  width:169px;
+  height:72px;
+}
+
+.dd {
+  width: 300px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+#check {
+  
+  margin-top: 10px;
+}
